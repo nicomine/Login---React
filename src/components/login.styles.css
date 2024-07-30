@@ -1,0 +1,23 @@
+.login-container {
+  background-color: rgb(60,60,60,.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 50px 5px rgba(0, 77, 112, 1);
+  -moz-box-shadow: 0px 10px 50px 5px rgba(0, 77, 112, 1);
+  box-shadow: 0px 10px 50px 5px rgba(0, 77, 112, 1);
+  color:rgb(190, 230, 241);
+ font-family: 'Montserrat';
+}
+
+.login-title{
+  font-size: 40px;
+  color: rgb(27, 164, 202);
+}
+
+.buttons-direction{
+  display: flex;
+  justify-content: space-around;
+}

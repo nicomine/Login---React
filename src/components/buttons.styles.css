@@ -1,0 +1,30 @@
+.buttons {
+  background-color: rgb(45, 45, 45);
+  border: 1px solid rgb(107, 98, 98);
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+  margin-top: 60px;
+  padding: 15px 100px;
+  cursor: pointer;
+  color: #fff;
+  transition: background 2s;
+}
+
+.buttons:hover {
+  color: rgb(168, 221, 228);
+  background-image: linear-gradient(
+    to right,
+    rgb(3, 39, 54),
+    rgb(12, 60, 82),
+    rgb(17, 56, 71),
+    rgb(17, 56, 71),
+    rgb(17, 56, 71),
+    rgb(9, 53, 73),
+    rgb(3, 39, 54)
+  );
+  transition: background 2s;
+  -webkit-box-shadow: 0px 10px 50px 12px rgba(12, 73, 99, 1);
+  -moz-box-shadow: 0px 10px 50px 12px rgba(12, 73, 99, 1);
+  box-shadow: 0px 10px 50px 12px rgba(12, 73, 99, 1);
+}

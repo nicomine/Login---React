@@ -1,0 +1,18 @@
+.inputs{
+    display: block;
+    padding: 15px;
+    width: 50vh;
+    background-color: rgba(6, 75, 102,.4);
+    font-family: 'Montserrat';
+    margin-bottom: 15px;
+    border: 1px solid rgb(45, 48, 49);
+    color: rgb(255, 255, 255);
+}
+
+.input-label{
+    color: rgba(57, 173, 194, 0.651);
+}
+
+.error{    
+    color:rgb(231, 40, 40)
+}
